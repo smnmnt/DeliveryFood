@@ -72,8 +72,22 @@ max-height: 40px;
     font-size: 16px;
     line-height: 24px;
     cursor: pointer;
-}
+    transition: 500ms;
 
+}
+.button__man:hover {
+    background-color: #302C34;
+    transition: 500ms;
+    border: 1px solid #302C34;
+    border-radius: 50px;
+}
+.button__cart:hover {
+    background-color: #302C34;
+    color: #fff;
+    transition: 500ms;
+    border: 1px solid #302C34;
+    border-radius: 50px;
+}
 .button__man{
     background: url(../img/man.svg) no-repeat 16px center;
 }
@@ -314,10 +328,8 @@ padding: 4px 8px;
 
 .button--addto{
     padding: 7px 36px 7px 14px;
-    
     border: none;
     border-radius: 2px;
-    
     font-family: 'OpenSans', sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -326,6 +338,14 @@ padding: 4px 8px;
     background-color: #1890FF;
     color:white;
     border: 1px solid #1890FF;
+    transition: 500ms;
+}
+.button--addto:hover {
+    background-color: #302C34;
+    color: #fff;
+    transition: 500ms;
+    border: 1px solid #302C34;
+    border-radius: 50px;
 }
 .button--addtocart{
     display: flex;
