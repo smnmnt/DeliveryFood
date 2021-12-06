@@ -189,6 +189,7 @@ justify-content: space-between;
 
 .card__main{
     padding: 21px 24px 35px;
+    align-self: flex-end;
 }
 
 .card__title{
@@ -305,7 +306,6 @@ padding: 4px 8px;
 .restour__desc{
     display: flex;
     justify-content: start;
-
     align-items: center;
     margin-left: 32px;
 }
@@ -314,12 +314,11 @@ padding: 4px 8px;
     color: #8c8c8c;
     position: relative;
     margin-bottom: 25px;
-    
+    height: 64px;
 }
 .card__desc__position{
     display: flex;
     flex-direction: column;
- 
 }
 .card__title{
     width: 337px;
@@ -349,6 +348,7 @@ padding: 4px 8px;
 }
 .button--addtocart{
     display: flex;
+    align-self: end;
 }
 .card__cost{
     display: flex;
